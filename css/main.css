@@ -1,0 +1,124 @@
+    body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.navbar {
+    max-height: 300px;
+    min-height: 50px;
+}
+.navbar-nav.nav-justified> li {
+    float: none;
+}
+
+.nav {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    vertical-align: middle;
+    padding: 5px 0 0 0;
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    position:relative;
+}
+@media (min-width: 768px) {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    position:relative;
+    
+}
+
+.divider {
+    position: absolute;
+    right:-80px;
+    
+}
+
+.glyphicon {
+  position: relative;
+  
+  left: 50px;
+}
+a:link, a:visited {
+    display: block;
+    width: 230px;   
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: lowercase;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #3b4658;
+}
+}
+#xsmenu > li:nth-child(2) > a:nth-child(2) > span:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu > li:nth-child(1) > span:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar .collapsed {
+  border: 1px solid #3b4658;
+  
+}
+
+.navbar-default button.navbar-toggle.collapsed:focus,
+.navbar-default button.navbar-toggle.collapsed{ background-color: transparent;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
+.navbar-default button.navbar-toggle:focus,
+.navbar-default button.navbar-toggle.collapsed:hover{ background-color:#ddd;
+    -webkit-transition:all .4s;
+    -moz-transition:all .4s;
+    -ms-transition:all .4s;
+    -o-transition:all .4s;
+    transition:all .4s;
+}
+
+.navbar-default .dropdown-menu {
+     background-color: lightgrey;
+     color:white;
+     padding: 5px;
+}
+
+#menu > li:nth-child(3) > a:nth-child(1) {
+    width: 260px !important;
+}
+
+
+.logo {
+    padding: 100px;
+} 
+
+.col-md-4 {
+    padding: 20px;
+    
+}
+
+@media (min-width: 667px) {
+.container .jumbotron {
+    background: url('../images/logo.jpg') no-repeat;
+    height: 691px;
+    text-align: center;
+
+}
+    
+}

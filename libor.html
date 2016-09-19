@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="cz">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Liborova stránka">
-        <link href="css/main.css" rel="stylesheet">
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
-    
-    
-    </body>
-</html>
 
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Liborova stránka">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- kolaps menu -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#kolaps" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+            </div>
+
+
+            <!-- Obsah headeru -->
+
+            <div class="container">
+                <ul id="menu" class="nav navbar-nav visible-lg nav-justified">
+                    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></li>
+                    <li><a href="mailto:libor.kalas@gmail.com">libor.kalas@gmail.com<span class="divider">&#9632</span></a></li>
+                    <li><a href="607757646">telefon: 607 757 64<span class="divider">&#9632</span></a></li>
+                    <li>IČ: 04898745</li>
+                </ul>
+            </div>
+            <!-- /.container ul-->
+        </div>
+        <!-- /.navbar-collapse -->
+
+        <div class="collapse navbar-collapse" id="kolaps">
+            <ul id="xsmenu" class="nav navbar-nav visible-xs">
+                <li><a href="mailto:libor.kalas@gmail.com"><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsplibor.kalas@gmail.com </span></a></li>
+                <li><a href="607757646">telefon: 607 757 64</a></li>
+                <li>IČ: 04898745</li>
+            </ul>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 logo img-responsive">
+                <img src="images/logo500x238.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="trojrad">
+                <div class="col-md-4 sluzby img-responsive">
+                    <img src="images/sluzby250x213.jpg">
+                </div>
+                <div class="col-md-4 objednavka">
+                    <img src="images/objednavka250x213.jpg">
+                </div>
+                <div class="col-md-4 reference">
+                    <img src="images/reference250x213.jpg">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
