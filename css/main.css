@@ -168,3 +168,11 @@
     #kolaps {
         height: auto;
     }
+
+    @media (max-height: 800px) {
+        .logo {
+        padding: 50px;
+        right: 19px;
+    }
+
+    }
