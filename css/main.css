@@ -123,6 +123,16 @@ a:link, a:visited {
     
 }
 
+
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+
+
 #logo {
     width: 90%; /* or whatever is required */
     text-align: center; /* ensures the image is always in the h-middle */
