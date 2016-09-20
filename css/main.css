@@ -1,6 +1,7 @@
     body {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    color: #3b4658;
 }
 
 .navbar {
@@ -127,20 +128,11 @@ a:link, a:visited {
 img
 {
     max-width: 100%;
-    min-width: 300px;
+    min-width: 200px;
     height: auto;
 }
 
-
-
-#logo {
-    width: 90%; /* or whatever is required */
-    text-align: center; /* ensures the image is always in the h-middle */
-    overflow: hidden; /* hide the cropped portion */
+#xsmenu > li:nth-child(1) > a:nth-child(1) > span:nth-child(1) {
+    font-family: 'Open Sans', sans-serif;
 }
 
-#obrlog {
-    position: relative; /* allows repositioning */
-    left: 100%; /* move the whole width of the image to the right */
-    margin-left: -200%; /* magic! */
-}
