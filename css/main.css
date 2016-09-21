@@ -2,6 +2,8 @@
         font-family: 'Open Sans', sans-serif;
         font-size: 20px;
         color: #3b4658;
+        height: 100%;
+        margin: 0;
     }
     
     .navbar {
@@ -27,31 +29,30 @@
         position: relative;
     }
     
-            
-        .divider {
-            position: absolute;
-            right: -80px;
-            
-        }
-        #menu > li:nth-child(1) > span:nth-child(1) {
-            position: relative;
-            left: 50px;
-        }
-
-        
-        #menu a:link, #menu a:visited {
-            display: block;
-            width: 230px;
-            text-align: center;
-            padding: 4px;
-            text-decoration: none;
-            text-transform: lowercase;
-        }
-        .navbar-default .navbar-nav> li> a:hover,
-        .navbar-default .navbar-nav> li> a:focus {
-            color: #3b4658;
-        }
+    .divider {
+        position: absolute;
+        right: -80px;
+    }
     
+    #menu> li:nth-child(1)> span:nth-child(1) {
+        position: relative;
+        left: 50px;
+    }
+    
+    #menu a:link,
+    #menu a:visited {
+        display: block;
+        width: 230px;
+        text-align: center;
+        padding: 4px;
+        text-decoration: none;
+        text-transform: lowercase;
+    }
+    
+    .navbar-default .navbar-nav> li> a:hover,
+    .navbar-default .navbar-nav> li> a:focus {
+        color: #3b4658;
+    }
     
     #xsmenu> li:nth-child(2)> a:nth-child(2)> span:nth-child(1) {
         font-family: 'Open Sans', sans-serif;
@@ -98,81 +99,109 @@
     
     .logo {
         padding: 100px;
-        right: 19px;
     }
     
     .col-md-4 {
         padding: 20px;
     }
     
-    img
-    {
-        max-width: 40%;
-        min-width: 200px;
-        height: auto;
-    }
+    
     
     #xsmenu> li:nth-child(1)> a:nth-child(1)> span:nth-child(1) {
         font-family: 'Open Sans', sans-serif;
     }
-
+    
     @media (max-width: 991px) {
-  .navbar-header {
-      float: none;
-  }
-  .navbar-left,.navbar-right {
-      float: none !important;
-  }
-  .navbar-toggle {
-      display: block;
-  }
-  .navbar-collapse {
-      border-top: 1px solid transparent;
-      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-  }
-  .navbar-fixed-top {
-      top: 0;
-      border-width: 0 0 1px;
-  }
-  .navbar-collapse.collapse {
-      display: none!important;
-  }
-  .navbar-nav {
-      float: none!important;
-      margin-top: 7.5px;
-  }
-  .navbar-nav>li {
-      float: none;
-  }
-  .navbar-nav>li>a {
-      padding-top: 10px;
-      padding-bottom: 10px;
-  }
-  .collapse.in{
-      display:block !important;
-  }
-}
+        .navbar-header {
+            float: none;
+        }
+        .navbar-left,
+        .navbar-right {
+            float: none !important;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: 1px solid transparent;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        }
+        .navbar-fixed-top {
+            top: 0;
+            border-width: 0 0 1px;
+        }
+        .navbar-collapse.collapse {
+            display: none!important;
+        }
+        .navbar-nav {
+            float: none!important;
+            margin-top: 7.5px;
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .collapse.in {
+            display: block !important;
+        }
+    }
+    
     @media (min-width: 991px) and (max-width: 1200px) {
         .divider {
             right: -60px;
         }
         #kolaps {
-        height: auto;
-    }
+            height: auto;
+        }
     }
     
-    .navbar-collapse > .li {
+    .navbar-collapse> .li {
         text-align: center;
     }
-
+    
     #kolaps {
         height: auto;
     }
-
+    
     @media (max-height: 800px) {
         .logo {
-        padding: 50px;
-        right: 19px;
+            padding: 50px;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .svg {
+            background: url('../images/logo_SVG_PC.svg');
+            background-repeat: no-repeat;
+            background-size: 90%;
+            background-position: center top;
+            width: 40%;
+            margin: 0 auto;
+            height: 219px;
+
+        }
+    }
+    
+    @media (max-width: 991px) {
+         .svg {
+            background: url('../images/logo-mobil-31.svg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center top;
+            width: 90%;
+            margin: 0 auto;
+            height: 200px;
+            bottom: 60px;
+        }
+        #logo {
+	bottom: 60px;
+}
     }
 
-    }
+  br {
+   display: block;
+   margin: 50px 0;
+}
