@@ -36,9 +36,13 @@
     
     #menu> li:nth-child(1)> span:nth-child(1) {
         position: relative;
-        left: 50px;
+        left: 75px;
     }
     
+    .nav > li {
+        right: 60px;
+    }
+
     #menu a:link,
     #menu a:visited {
         display: block;
