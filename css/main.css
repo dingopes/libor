@@ -33,7 +33,23 @@
         position: absolute;
         right: -80px;
     }
-    
+  
+  .Small {
+      margin-top: 150px !important;
+      width: 250px;
+      height: 150px;
+  }
+   a .Large {
+        display: none;
+         }
+
+   a:hover .Small {
+        display: none; margin-top: 150px;
+         }
+   a:hover .Large {
+        display: block;
+         }
+
     #menu> li:nth-child(1)> span:nth-child(1) {
         position: relative;
         left: 75px;
@@ -42,6 +58,9 @@
     .nav > li {
         right: 85px;
     }
+
+    
+    
 
     #menu a:link,
     #menu a:visited {
