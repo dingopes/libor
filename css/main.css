@@ -47,12 +47,12 @@
         display: none;
          }
 
-    .no-touch a:hover,
- .no-js a:hover .Small {
+  .no-touch a:hover
+  .Small {
         display: none; margin-top: 150px;
          }
-    .no-touch a:hover,
- .no-js a:hover .Large {
+   .no-touch a:hover
+  .Large {
         display: block;
          }
 
