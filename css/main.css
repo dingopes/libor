@@ -47,10 +47,12 @@
         display: none;
          }
 
-    a:hover .Small {
+    .no-touch a:hover,
+ .no-js a:hover .Small {
         display: none; margin-top: 150px;
          }
-    a:hover .Large {
+    .no-touch a:hover,
+ .no-js a:hover .Large {
         display: block;
          }
 
@@ -243,12 +245,5 @@ img {
 
 
 
-@media handheld {
-a:hover {
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    transform: none;
-}
-}
+
 
