@@ -240,3 +240,15 @@ img {
             height: 300px;
             bottom: 60px;
 }
+
+
+
+@media handheld {
+a:hover {
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+}
+
