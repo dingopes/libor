@@ -1,4 +1,5 @@
-console.log('This would be the main JS file.');
+console.log('JS funkcni.');
+
 if (!("ontouchstart" in document.documentElement)) {
     document.documentElement.className += " no-touch";
 }
