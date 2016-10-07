@@ -278,8 +278,10 @@ img {
             
         }
         .container {
-        top: -60px;
+        top: -30px;
     }
 }
 
 
+#logo {
+	bottom: 60px;
