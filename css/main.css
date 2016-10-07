@@ -186,9 +186,16 @@
     }
     
     @media (min-width: 991px) and (max-width: 1200px) {
-        .divider {
-            right: -60px;
+        .divider1 {
+        position: absolute;
+        right: -70px;
         }
+        
+        .divider2 {
+        position: absolute;
+        right: -60px;
+        }
+        
         #kolaps {
             height: auto;
         }
