@@ -29,9 +29,18 @@
         position: relative;
     }
     
-    .divider {
+    .dividerEmail {
         position: absolute;
         right: -80px;
+    }
+    .divider1 {
+        position: absolute;
+        right: -90px;
+    }
+
+     .divider2 {
+        position: absolute;
+        right: -100px;
     }
   
   .Small {
@@ -56,7 +65,7 @@
 
     #menu> li:nth-child(1)> span:nth-child(1) {
         position: relative;
-        left: 75px;
+        left: 88px;
     }
     
     
