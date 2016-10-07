@@ -223,7 +223,7 @@
             background: url('../images/logo_SVG_PC.svg');
             background-repeat: no-repeat;
             background-size: 90%;
-            background-position: center top;
+            background-position: center;
             width: 40%;
             margin: 0 auto;
             height: 219px;
@@ -247,8 +247,7 @@
             height: 200px;
             bottom: 60px;
         }
-        #logo {
-	bottom: 60px;
+        
 }
 
 .Small {
