@@ -234,6 +234,8 @@
     .Small {
       margin-top: 150px;
     }
+
+    
     }
     
     @media (max-width: 991px) {
@@ -248,13 +250,14 @@
             bottom: 60px;
         }
         
+    
 }
 
 .Small {
       margin-top: 0px !important;
 }
 
-    }
+    
 
   br {
    display: block;
@@ -269,6 +272,14 @@ img {
 }
 
 
-
+@media (max-width: 380px) {
+         .svg {
+            height: 140px;
+            
+        }
+        .container {
+        top: -60px;
+    }
+}
 
 
